@@ -1,0 +1,17 @@
+.left-part {
+    background-color: #444444;
+    border-radius: 30px;
+}
+
+.right-part {
+    background-color: #222222;
+    border-radius: 30px;
+}
+
+.employee_photo img {
+    border-radius: 50%;
+}
+
+.employee_social-links img {
+    border-radius: 50%;
+}
