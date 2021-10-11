@@ -24,12 +24,24 @@ body {
     align-items: center;
 }
 
+.left-part-main {
+    text-align: center;
+}
+
+.employee_photo img {
+    border-radius: 50%;
+}
+
 .employee_name {
     font-size: 38px;
 }
 
 .employee_position {
     font-size: 20px;
+}
+
+.employee_social-links img {
+    border-radius: 50%;
 }
 
 .download_button {
@@ -56,12 +68,4 @@ body {
 
 .right-part.employee_position {
     font-size: 22px;
-}
-
-.employee_photo img {
-    border-radius: 50%;
-}
-
-.employee_social-links img {
-    border-radius: 50%;
 }
