@@ -1,5 +1,5 @@
 body {
-    height: 2000px;
+    height: 800px;
     color: #FFFFFF;
     font-family: Helvetica, sans-serif;
     display: flex;
@@ -20,12 +20,16 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .left-part-main {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .employee_photo img {
@@ -54,6 +58,7 @@ body {
 
 .copyright {
     font-size: 14px;
+    margin: 16px;
 }
 
 .right-part {
