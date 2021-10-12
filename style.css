@@ -70,6 +70,10 @@ body {
 .download_button {
     font-size: 17px;
     margin-top: 57px;
+    padding: 12px 32px;
+    background: transparent;
+    border: 3px solid #FFFFFF;
+    border-radius: 40px;
 }
 
 .copyright {
