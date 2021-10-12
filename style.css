@@ -37,6 +37,8 @@ body {
 
 .employee_photo {
     margin-top: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 .employee_photo img {
