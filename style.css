@@ -59,6 +59,8 @@ body {
 
 .employee_social-links img {
     border-radius: 50%;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .employee_social-links a {
