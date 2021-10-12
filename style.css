@@ -21,8 +21,8 @@ body {
 }
 
 .left-part {
-    flex-grow: 1;
     display: flex;
+    width: 380px;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -32,12 +32,11 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     flex-grow: 1;
 }
 
 .employee_photo {
-    margin-bottom: 29px;
+    margin-top: 70px;
 }
 
 .employee_photo img {
@@ -46,16 +45,16 @@ body {
 
 .employee_name {
     font-size: 38px;
-    margin-bottom: 8px;
+    margin-top: 29px;
 }
 
 .employee_position {
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-top: 8px;
 }
 
 .employee_social-links {
-    margin-bottom: 57px;
+    margin-top: 16px;
 }
 
 .employee_social-links img {
@@ -68,6 +67,7 @@ body {
 
 .download_button {
     font-size: 17px;
+    margin-top: 57px;
 }
 
 .copyright {
@@ -77,7 +77,7 @@ body {
 
 .right-part {
     background-color: #222222;
-    flex-grow: 2;
+    width: 747px;
     display: flex;
     flex-direction: column;
     justify-content: center;
