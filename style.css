@@ -86,13 +86,14 @@ body {
     width: 747px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     border-radius: 30px;
 }
 
 .right-part .employee_name {
     font-size: 62px;
+    margin-top: 244px;
 }
 
 .right-part.employee_position {
