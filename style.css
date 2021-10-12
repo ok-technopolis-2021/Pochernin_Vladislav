@@ -45,6 +45,7 @@ body {
 .employee_photo img {
     display: flex;
     border-radius: 50%;
+    box-shadow: 12px 12px 0px 0px rgb(196 196 196 / 0.2);
 }
 
 .employee_name {
