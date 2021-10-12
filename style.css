@@ -8,6 +8,7 @@ body {
     font-family: Helvetica, sans-serif;
     display: flex;
     margin: 0;
+    padding: 0;
     align-items: center;
     justify-content: center;
 }
@@ -61,8 +62,8 @@ body {
 
 .employee_social-links img {
     border-radius: 50%;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .employee_social-links a {
