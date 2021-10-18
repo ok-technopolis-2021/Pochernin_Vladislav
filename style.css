@@ -42,42 +42,42 @@ body {
     justify-content: center;
 }
 
-.left-part-main__employee_photo img {
+.left-part-main__employee_image {
     display: flex;
     border-radius: 50%;
     box-shadow: 12px 12px 0px 0px rgb(196 196 196 / 0.2);
 }
 
-.employee-name {
+.left-part-main__employee-name {
     display: flex;
     font-size: 38px;
     margin-top: 30px;
 }
 
-.employee-position {
+.left-part-main__employee-position {
     display: flex;
     align-self: center;
     font-size: 20px;
     margin-top: 8px;
 }
 
-.employee-social-links {
+.left-part-main__employee-social-links {
     display: flex;
     align-self: center;
     margin-top: 16px;
 }
 
-.employee-social-links img {
+.employee-social-links__link {
+    text-decoration: none;
+}
+
+.employee-social-links__image {
     border-radius: 50%;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.employee-social-links a {
-    text-decoration: none;
-}
-
-.left-part__download-button {
+.left-part-main__download-button {
     font-size: 17px;
     color: #FFFFFF;
     margin-top: 53px;
@@ -102,11 +102,16 @@ body {
     border-radius: 30px;
 }
 
-.right-part .employee-name {
+.right-part__employee-name {
+    display: flex;
     font-size: 62px;
     margin-top: 244px;
+
 }
 
-.right-part .employee-position {
+.right-part__employee-position {
+    display: flex;
+    align-self: center;
     font-size: 22px;
+    margin-top: 8px;
 }
