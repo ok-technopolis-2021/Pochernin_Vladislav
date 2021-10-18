@@ -36,13 +36,13 @@ body {
     flex-grow: 1;
 }
 
-.employee_photo {
+.left-part-main__employee_photo {
     margin-top: 70px;
     display: flex;
     justify-content: center;
 }
 
-.employee_photo img {
+.left-part-main__employee_photo img {
     display: flex;
     border-radius: 50%;
     box-shadow: 12px 12px 0px 0px rgb(196 196 196 / 0.2);
@@ -61,19 +61,19 @@ body {
     margin-top: 8px;
 }
 
-.employee_social-links {
+.employee-social-links {
     display: flex;
     align-self: center;
     margin-top: 16px;
 }
 
-.employee_social-links img {
+.employee-social-links img {
     border-radius: 50%;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.employee_social-links a {
+.employee-social-links a {
     text-decoration: none;
 }
 
