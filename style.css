@@ -1,10 +1,12 @@
+@import "colors.css";
+
 body {
     transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
     left: 50%;
     color: #FFFFFF;
-    background-color: #0e0e0e;
+    background-color: var(--main-bg-color);
     font-family: Helvetica, sans-serif;
     display: flex;
     margin: 0;

@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <title>Моя визитная карточка</title>
     <link rel="stylesheet" href="style.css"/>
+    <script>
+        function changeTheme() {
+            if (document.body.classList.contains("dark-theme")) {
+                document.body.classList.replace("dark-theme", "light-theme");
+            } else {
+                document.body.classList.replace("light-theme", "dark-theme");
+            }
+        }
+    </script>
 </head>
-<body>
+<body class="dark-theme" onclick=changeTheme()>
 <div class="card">
     <div class="left-part">
         <div class="left-part-main">
