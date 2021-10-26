@@ -2,10 +2,6 @@
 @import "./colors.scss";
 
 body {
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
     color: #FFFFFF;
     background-color: var(--main-bg-color);
     font-family: Helvetica, sans-serif;
@@ -16,7 +12,16 @@ body {
     justify-content: center;
 }
 
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
 .card {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
     background-color: #444444;
     border-radius: 30px;
     display: flex;
@@ -53,14 +58,11 @@ body {
 }
 
 .left-part-main__employee-name {
-    display: flex;
     font-size: 38px;
     margin-top: 30px;
 }
 
 .left-part-main__employee-position {
-    display: flex;
-    align-self: center;
     font-size: 20px;
     margin-top: 8px;
 }
@@ -108,15 +110,12 @@ body {
 }
 
 .right-part__employee-name {
-    display: flex;
     font-size: 62px;
     margin-top: 244px;
 
 }
 
 .right-part__employee-position {
-    display: flex;
-    align-self: center;
     font-size: 22px;
     margin-top: 8px;
 }
