@@ -1,3 +1,6 @@
+// Конфиг переместился в gulpfile.js
+// Но пока полежит здесь закомментированным.
+/*
 // rollup.config.js
 import scss from 'rollup-plugin-scss'
 import html from '@rollup/plugin-html'
@@ -17,4 +20,4 @@ export default {
         scss(), // will output compiled styles to output.css
         html({ template }),
     ]
-}
+}*/
