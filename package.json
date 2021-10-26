@@ -1,0 +1,29 @@
+{
+  "name": "pochernin_vladislav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rollup -cw ./rollup.config.js",
+    "build": "rollup -c ./rollup.config.js",
+    "boild:assets": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok-technopolis-2021/Pochernin_Vladislav.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ok-technopolis-2021/Pochernin_Vladislav/issues"
+  },
+  "homepage": "https://github.com/ok-technopolis-2021/Pochernin_Vladislav#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^2.58.0",
+    "@rollup/plugin-html": "^0.2.4",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.43.2"
+  }
+}
