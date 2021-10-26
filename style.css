@@ -1,10 +1,6 @@
 @import "colors.css";
 
 body {
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
     color: #FFFFFF;
     background-color: var(--main-bg-color);
     font-family: Helvetica, sans-serif;
@@ -16,6 +12,10 @@ body {
 }
 
 .card {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
     background-color: #444444;
     border-radius: 30px;
     display: flex;
