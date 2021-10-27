@@ -4,4 +4,4 @@
 
 // import './styles/style.scss'
 
-alert('Javascript Works!');
+// alert('Javascript Works!');
