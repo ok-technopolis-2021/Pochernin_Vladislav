@@ -1,7 +1,7 @@
-:root .light-theme {
+body {
     --main-bg-color: #ffffff;
 }
 
-:root .dark-theme {
+body.__dark {
     --main-bg-color: #0e0e0e;
 }
